@@ -296,7 +296,12 @@ img {
     letter-spacing: 0.32px;
 }
 
-
+.team-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
 
 .portfolio-list {
     display: flex;
