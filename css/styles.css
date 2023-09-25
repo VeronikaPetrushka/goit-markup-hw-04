@@ -316,7 +316,7 @@ img {
     gap: 24px;
 }
 
-.team-socials-item {
+.socials-item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -388,6 +388,11 @@ img {
     padding: 100px 0
 }
 
+.footer-boxes {
+    display: flex;
+    gap: 120px;
+}
+
 .logo-link {
     display: inline-block;
     margin-bottom: 16px;
@@ -409,3 +414,24 @@ img {
     letter-spacing: 0.32px;
 }
 
+.footer-socials-text {
+    color: var(--WHITE, #FFF);
+    font-family: "Roboto",
+        sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin-bottom: 16px;
+}
+
+.footer-socials-list {
+    display: flex;
+    gap: 16px;
+}
+
+.social-link-f {
+    fill: #F4F4FD;
+    height: 24px;
+}
