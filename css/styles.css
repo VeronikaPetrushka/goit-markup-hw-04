@@ -206,6 +206,9 @@ img {
 }
 
 .icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 264px;
     height: 112px;
     flex-shrink: 0;
@@ -213,12 +216,6 @@ img {
     border: 1px solid var(--LIGHT-SLATE, #8E8F99);
     background: var(--CLOUD, #F4F4FD);
     margin-bottom: 8px;
-}
-
-.icon {
-    position: relative;
-    right: -100px;
-    bottom: 24px;;
 }
 
 .benefit-tittle {
@@ -313,16 +310,28 @@ img {
     margin-bottom: 8px;
 }
 
-.team-socials {
+.team-socials-list {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 32px;
+    gap: 24px;
 }
 
-/* .social-link {
+.team-socials-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: 1px solid #4D5AE5;
+    background: #4D5AE5;
+}
+
+.social-link {
     fill: #F4F4FD;
-} */
+    height: 16px;
+}
 
 
 
