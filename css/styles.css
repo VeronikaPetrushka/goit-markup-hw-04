@@ -143,7 +143,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-back/people-office\ 1.jpg);
+    url(../images/hero-back/hero-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -336,7 +336,7 @@ img {
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-image {
@@ -360,6 +360,7 @@ img {
   width: calc((100% - 48px) / 3);
   background: var(--WHITE, #fff);
   max-width: fit-content;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-image {
@@ -471,4 +472,9 @@ img {
 .footer-socials-list {
   display: flex;
   gap: 16px;
+}
+
+.social-link-f:hover,
+.social-link-f:focus {
+  background-color: #31d0aa;
 }
