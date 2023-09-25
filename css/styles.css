@@ -93,6 +93,11 @@ img {
   color: #404bbf;
 }
 
+/* .nav-link::after .nav-link:focus {
+  content: " ";
+  color: #404bbf;
+} */
+
 .header-address {
   font-style: normal;
 }
